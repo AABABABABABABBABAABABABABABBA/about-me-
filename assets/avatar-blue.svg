@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <defs>
+    <linearGradient id="bgBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#003791"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="hairBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fa8ff"/>
+      <stop offset="1" stop-color="#0070d1"/>
+    </linearGradient>
+  </defs>
+  <rect width="140" height="140" rx="22" fill="url(#bgBlue)"/>
+  <rect x="3" y="3" width="134" height="134" rx="19" fill="none" stroke="#0070d1" stroke-width="2" opacity="0.6"/>
+
+  <path d="M30 58c0-26 17-42 40-42s40 16 40 42v16H30V58z" fill="url(#hairBlue)"/>
+  <path d="M30 58c-9 3-13 16-6 26l10-7z" fill="url(#hairBlue)"/>
+  <path d="M110 58c9 3 13 16 6 26l-10-7z" fill="url(#hairBlue)"/>
+  <path d="M46 36c6-6 16-9 24-9" stroke="#bfe4ff" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <circle cx="70" cy="74" r="33" fill="#f3f7ff"/>
+  <path d="M44 66c2-6 6-9 10-10" stroke="#dbe8f7" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <path d="M55 74c0-4 3-7 7-7s7 3 7 7-3 9-7 9-7-5-7-9z" fill="#13203a"/>
+  <path d="M81 74c0-4 3-7 7-7s7 3 7 7-3 9-7 9-7-5-7-9z" fill="#13203a"/>
+  <circle cx="60" cy="71" r="2" fill="#ffffff"/>
+  <circle cx="86" cy="71" r="2" fill="#ffffff"/>
+
+  <path d="M62 89c4 4 12 4 16 0" stroke="#5c7aa6" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+  <circle cx="50" cy="83" r="4.5" fill="#6fb4ff" opacity="0.5"/>
+  <circle cx="90" cy="83" r="4.5" fill="#6fb4ff" opacity="0.5"/>
+</svg>
