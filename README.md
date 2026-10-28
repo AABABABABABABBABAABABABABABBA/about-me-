@@ -27,19 +27,32 @@
 Full stack developer working across the web and backend. Comfortable owning a feature end to end — schema, API, UI, deploy. I care about clean code, fast builds, and software that doesn't break at 3am.
 
 - 🎮 PlayStation / console-dev minded — I like software that feels as tight as a good game engine
-- 🧩 Currently building: *(tell me what to put here)*
-- 🌱 Learning: *(tell me what to put here)*
-- 💬 Ask me about: *(tell me what to put here)*
+- 🗄️ Work across MongoDB and SQL databases
+- 🔐 Penetration testing — SQL injection and general web app security testing
+- 🖥️ Server administration through cPanel
 
 <br>
 
 ## Tech Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,python,postgres,docker,aws,git,figma,linux&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,python,mongodb,mysql,docker,linux,bash,git,github,figma,aws&theme=dark"/>
 </div>
 
 <sub align="center">placeholder set — tell me your actual stack and I'll swap these</sub>
+
+<br>
+
+## Security & Admin
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Penetration%20Testing-0D1117?style=for-the-badge&logo=hackthebox&logoColor=0070D1"/>
+<img src="https://img.shields.io/badge/SQL%20Injection-0D1117?style=for-the-badge&logo=sqlite&logoColor=0070D1"/>
+<img src="https://img.shields.io/badge/Web%20App%20Security-0D1117?style=for-the-badge&logo=owasp&logoColor=0070D1"/>
+<img src="https://img.shields.io/badge/cPanel-0D1117?style=for-the-badge&logo=cpanel&logoColor=0070D1"/>
+
+</div>
 
 <br>
 
@@ -63,6 +76,24 @@ Full stack developer working across the web and backend. Comfortable owning a fe
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=AABABABABABABBABAABABABABABBA&theme=darkhub&no-frame=true&margin-w=8&margin-h=8&column=7"/>
 </div>
+
+<br>
+
+## Activity Graph
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AABABABABABABBABAABABABABABBA&theme=react-dark&bg_color=0D1117&color=0070D1&line=0070D1&point=ffffff&area=true&hide_border=true"/>
+</div>
+
+<br>
+
+## Contribution Snake
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/AABABABABABABBABAABABABABABBA/about-me-/output/github-contribution-grid-snake-dark.svg"/>
+</div>
+
+<sub align="center">renders after the snake workflow's first run (Actions tab, on push or the daily schedule)</sub>
 
 <br>
 
