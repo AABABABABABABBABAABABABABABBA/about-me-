@@ -1,3 +1,5 @@
+<img src="assets/profile.png" width="130" align="right"/>
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:003791,100:0070D1&height=220&section=header&text=KAI&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer&descAlignY=58&descSize=22"/>
