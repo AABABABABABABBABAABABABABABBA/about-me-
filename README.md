@@ -61,7 +61,7 @@ Full stack developer working across the web and backend. Comfortable owning a fe
 ## Trophies
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=AABABABABABABBABAABABABABABBA&theme=darkhub&no-frame=true&margin-w=8&row=1"/>
+<img src="https://github-profile-trophy.vercel.app/?username=AABABABABABABBABAABABABABABBA&theme=darkhub&no-frame=true&margin-w=8&margin-h=8&column=7"/>
 </div>
 
 <br>
