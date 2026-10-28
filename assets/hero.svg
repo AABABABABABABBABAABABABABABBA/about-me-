@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#0a1f44"/>
+      <stop offset="1" stop-color="#003791"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#6fb4ff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0070d1" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#4fa8ff"/>
+      <stop offset="1" stop-color="#0070d1" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="hex" width="56" height="48" patternUnits="userSpaceOnUse" patternTransform="translate(0,0)">
+      <polygon points="28,0 56,14 56,34 28,48 0,34 0,14" fill="none" stroke="#1a3a73" stroke-width="1" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#hex)" opacity="0.35"/>
+
+  <line x1="0" y1="318" x2="1200" y2="318" stroke="url(#accent)" stroke-width="3"/>
+  <line x1="0" y1="2" x2="1200" y2="2" stroke="url(#accent)" stroke-width="2" opacity="0.6"/>
+
+  <g opacity="0.55">
+    <circle cx="1080" cy="60" r="14" fill="none" stroke="#6fb4ff" stroke-width="3"/>
+    <rect x="1120" y="46" width="26" height="26" fill="none" stroke="#6fb4ff" stroke-width="3" transform="rotate(45 1133 59)"/>
+    <polygon points="1050,110 1066,138 1034,138" fill="none" stroke="#6fb4ff" stroke-width="3"/>
+    <path d="M1108 100 L1124 116 M1124 100 L1108 116" stroke="#6fb4ff" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <text x="90" y="168" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="800" letter-spacing="6" fill="url(#title)" filter="url(#glow)">KAI</text>
+  <text x="94" y="214" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="600" letter-spacing="3" fill="#8fb8e8">FULL STACK DEVELOPER</text>
+  <text x="94" y="250" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="2" fill="#5c7aa6">WEB &#183; BACKEND &#183; SECURITY</text>
+
+  <rect x="94" y="266" width="120" height="4" fill="#0070d1"/>
+</svg>

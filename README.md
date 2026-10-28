@@ -2,15 +2,15 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:003791,100:0070D1&height=220&section=header&text=KAI&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer&descAlignY=58&descSize=22"/>
+<img src="assets/hero.svg" width="100%"/>
 
 <sub>Kai is an online alias, not my legal name</sub>
 
 <br><br>
 
-<img src="assets/avatar-blue.svg" width="100"/>&nbsp;&nbsp;&nbsp;
-<a href="https://readme-typing-svg.demolab.com/"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=0070D1&center=true&vCenter=true&width=460&lines=Full+Stack+Developer;Building+clean%2C+fast+software;Shipping+on+web+%26+backend"/></a>&nbsp;&nbsp;&nbsp;
-<img src="assets/avatar-mono.svg" width="100"/>
+<img src="assets/avatar-blue.svg" width="90"/>&nbsp;&nbsp;&nbsp;
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0070D1&center=true&vCenter=true&width=460&lines=Full+Stack+Developer;Building+clean%2C+fast+software;Shipping+on+web+%26+backend"/>&nbsp;&nbsp;&nbsp;
+<img src="assets/avatar-mono.svg" width="90"/>
 
 <br>
 
@@ -22,7 +22,9 @@
 
 <br>
 
-## About
+<img src="assets/section-about.svg" width="100%"/>
+
+<br>
 
 Full stack developer working across the web and backend. Comfortable owning a feature end to end — schema, API, UI, deploy. I care about clean code, fast builds, and software that doesn't break at 3am.
 
@@ -33,7 +35,9 @@ Full stack developer working across the web and backend. Comfortable owning a fe
 
 <br>
 
-## Tech Stack
+<img src="assets/section-stack.svg" width="100%"/>
+
+<br>
 
 <div align="center">
 <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,python,mongodb,mysql,docker,linux,bash,git,github,figma,aws&theme=dark"/>
@@ -43,7 +47,9 @@ Full stack developer working across the web and backend. Comfortable owning a fe
 
 <br>
 
-## Security & Admin
+<img src="assets/section-security.svg" width="100%"/>
+
+<br>
 
 <div align="center">
 
@@ -56,7 +62,9 @@ Full stack developer working across the web and backend. Comfortable owning a fe
 
 <br>
 
-## GitHub Stats
+<img src="assets/section-stats.svg" width="100%"/>
+
+<br>
 
 <div align="center">
 
@@ -71,7 +79,9 @@ Full stack developer working across the web and backend. Comfortable owning a fe
 
 <br>
 
-## Trophies
+<img src="assets/section-trophies.svg" width="100%"/>
+
+<br>
 
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=AABABABABABABBABAABABABABABBA&theme=darkhub&no-frame=true&margin-w=8&margin-h=8&column=7"/>
@@ -79,7 +89,9 @@ Full stack developer working across the web and backend. Comfortable owning a fe
 
 <br>
 
-## Activity Graph
+<img src="assets/section-activity.svg" width="100%"/>
+
+<br>
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=AABABABABABABBABAABABABABABBA&theme=react-dark&bg_color=0D1117&color=0070D1&line=0070D1&point=ffffff&area=true&hide_border=true"/>
@@ -87,7 +99,9 @@ Full stack developer working across the web and backend. Comfortable owning a fe
 
 <br>
 
-## Contribution Snake
+<img src="assets/section-snake.svg" width="100%"/>
+
+<br>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/AABABABABABABBABAABABABABABBA/about-me-/output/github-contribution-grid-snake-dark.svg"/>
@@ -97,7 +111,9 @@ Full stack developer working across the web and backend. Comfortable owning a fe
 
 <br>
 
-## Connect
+<img src="assets/section-connect.svg" width="100%"/>
+
+<br>
 
 <div align="center">
 
