@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Kai</title>
+<meta name="description" content="Kai, full stack developer and web security tester based in Ontario, Canada.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0d1117;
+  --card: #131a24;
+  --line: #1f2a3a;
+  --blue: #0070d1;
+  --blue-deep: #003791;
+  --text: #e6edf3;
+  --muted: #7b8aa3;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.6 Inter, system-ui, sans-serif;
+  min-height: 100vh;
+}
+a { color: var(--blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 880px; margin: 0 auto; padding: 48px 16px 64px; }
+
+nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 56px; }
+nav .logo { font-family: "Fira Code", monospace; font-weight: 600; color: var(--text); }
+nav .logo span { color: var(--blue); }
+nav ul { display: flex; gap: 20px; list-style: none; }
+nav ul a { color: var(--muted); font-size: 15px; }
+nav ul a.on, nav ul a:hover { color: var(--text); text-decoration: none; }
+
+.hero { display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center; margin-bottom: 48px; }
+.tag { font-family: "Fira Code", monospace; color: var(--blue); font-size: 14px; margin-bottom: 8px; }
+h1 { font-size: clamp(36px, 7vw, 56px); line-height: 1.1; margin-bottom: 16px; }
+.hero p { color: var(--muted); max-width: 520px; }
+.photo {
+  width: 160px; height: 160px; border-radius: 50%;
+  border: 3px solid var(--blue);
+  box-shadow: 0 0 40px rgba(0, 112, 209, .35);
+  background: var(--card); object-fit: cover;
+}
+.meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.chip {
+  font-family: "Fira Code", monospace; font-size: 13px;
+  padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted);
+}
+.chip b { color: var(--blue); font-weight: 600; }
+
+h2 {
+  font-family: "Fira Code", monospace; font-size: 15px; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--blue); margin: 48px 0 16px;
+}
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 24px; }
+.card p + p { margin-top: 12px; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+.grid .card h3 { font-size: 17px; margin-bottom: 6px; }
+.grid .card p { color: var(--muted); font-size: 15px; }
+
+.stack { display: flex; flex-wrap: wrap; gap: 8px; }
+.stack span {
+  background: rgba(0, 112, 209, .12); color: var(--text);
+  border: 1px solid rgba(0, 112, 209, .4);
+  padding: 6px 12px; border-radius: 8px; font-size: 14px;
+}
+
+.links { display: flex; flex-wrap: wrap; gap: 12px; }
+.btn {
+  display: inline-block; padding: 10px 18px; border-radius: 8px;
+  border: 1px solid var(--blue); color: var(--text); font-weight: 500;
+}
+.btn.fill { background: var(--blue); }
+.btn:hover { text-decoration: none; background: var(--blue-deep); border-color: var(--blue-deep); }
+
+footer { margin-top: 64px; color: var(--muted); font-size: 13px; text-align: center; }
+
+@media (max-width: 640px) {
+  .hero { grid-template-columns: 1fr; }
+  .photo { width: 120px; height: 120px; order: -1; }
+  nav ul { gap: 14px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <nav>
+    <a class="logo" href="https://portiflo-site.pages.dev">kai<span>.dev</span></a>
+    <ul>
+      <li><a href="https://portiflo-site.pages.dev">Home</a></li>
+      <li><a class="on" href="about.html">About</a></li>
+      <li><a href="https://github.com/AABABABABABABBABAABABABABABBA">GitHub</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <div class="tag">// about me</div>
+      <h1>Hey, I'm Kai.</h1>
+      <p>Full stack developer from Ontario, Canada. I build stuff for the web end to end, then try to break it before anyone else does.</p>
+      <div class="meta">
+        <span class="chip"><b>@</b> Ontario, Canada</span>
+        <span class="chip"><b>&gt;</b> full stack</span>
+        <span class="chip"><b>#</b> web security</span>
+      </div>
+    </div>
+    <img class="photo" src="assets/profile.png" alt="Kai's profile picture">
+  </section>
+
+  <h2>Who I am</h2>
+  <div class="card">
+    <p>I like owning a feature the whole way through. Database schema, API, frontend, deploy. If it ships, I want to know every piece of it.</p>
+    <p>I'm big on PlayStation and games in general, and I think good software should feel the same way a good game does. Fast, tight, and it doesn't crash on you at 3am.</p>
+    <p>On the other side I do penetration testing, mostly web apps and SQL injection, so I build things knowing how they get attacked.</p>
+  </div>
+
+  <h2>What I do</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Full stack dev</h3>
+      <p>Frontends in React and Next.js, backends in Node and Python.</p>
+    </div>
+    <div class="card">
+      <h3>Databases</h3>
+      <p>MongoDB and SQL. Designing schemas that don't fall apart later.</p>
+    </div>
+    <div class="card">
+      <h3>Pentesting</h3>
+      <p>Web app security testing, SQL injection, finding the holes first.</p>
+    </div>
+    <div class="card">
+      <h3>Server admin</h3>
+      <p>Running and managing servers through cPanel and Linux.</p>
+    </div>
+  </div>
+
+  <h2>Stack</h2>
+  <div class="stack">
+    <span>JavaScript</span><span>TypeScript</span><span>React</span><span>Next.js</span>
+    <span>Node.js</span><span>Python</span><span>MongoDB</span><span>MySQL</span>
+    <span>Docker</span><span>Linux</span><span>Bash</span><span>Git</span>
+    <span>AWS</span><span>Figma</span><span>cPanel</span>
+  </div>
+
+  <h2>Find me</h2>
+  <div class="links">
+    <a class="btn fill" href="https://portiflo-site.pages.dev">Portfolio</a>
+    <a class="btn" href="https://github.com/AABABABABABABBABAABABABABABBA">GitHub</a>
+  </div>
+
+  <footer>Kai is an online alias, not my legal name.</footer>
+
+</div>
+</body>
+</html>
